@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public class BerBunga {
+public interface BerBunga {
+    int tambahBunga();
+    String getNomor();
 }

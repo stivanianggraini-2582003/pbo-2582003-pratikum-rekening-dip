@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Notifikasi {
+public interface Notifikasi {
+    void kirim(String nomor, String pesan);
 }
